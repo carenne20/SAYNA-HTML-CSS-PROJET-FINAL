@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;  
+}
+/*Menu*/
+header{
+    margin: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: #d35649; 
+
+}
+nav.menu{
+    display: flex;  
+}
+ul.page{
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: white;
+}
+a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+/*Moteur*/
+section.B{
+    padding-top: 20px;
+    background: url(../assets/image/group-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+/*Partie A*/
+div.C{
+    display: flex;
+    text-align: center;
+    padding: 25px;
+    justify-content: space-relative;
+}
+.icone{
+    filter: invert(100%);
+}
+div.G{
+    display: flex;
+    text-align: center;
+    padding: 25px;
+    justify-content: space-relative;
+}
+.icone{
+    filter: invert(100%);
+}
+/*Partie B*/
+.main{
+    background-color: #d35649;
+    color: white;
+}
+.imronde{
+    width: 100px;
+    height: 100px;
+    border: radius 50px;
+    padding: 2%;
+}
+.ma{
+    background-color: #98a5a5;
+    color: white;
+    padding: 3%;
+}
+.mai{
+    background-color: #509bd7;
+    color: white;
+    padding: 3%;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+img.map{
+    width: 100px;
+}
+.liste{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;   
+}
+
+footer{
+    height: 5vh;  
+    padding: 1%;
+    background-color: grey; 
+}
+footer>p {
+    color: white;
+    float: right;
+} 
+footer>i {
+    color: white;
+}
+.voantsiriry{
+    padding: 0;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.mitovy{
+    margin: 15px;
+    height: 50px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
+.mitovy ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+.mitovy ul li{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+.tsy{
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
