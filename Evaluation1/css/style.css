@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;  
+}
+/*Menu*/
+header{
+    margin: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: #d35649; 
+
+}
+nav.menu{
+    display: flex;  
+}
+ul.page{
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+/*Partie A*/
+.titre{
+    color: #d35649; 
+    text-align: center;
+}
+.grid{
+    border: none;
+    margin: 15px 50px;  
+}
+.chap{
+    width: 450px;
+    height: 50px;
+    margin: 15px; 
+    padding-top: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: inset 0px 0px 10px 0px grey;
+}
+.liste{
+    list-style-type: none;
+    display: flex;  
+}
+.li{
+    margin: 40px;
+}
+.hop{
+    margin: 40px;
+    background-color: rgb(240, 231, 231);
+    height: 60px;
+    padding: 10px;
+}
+
+footer{
+    height: 5vh;  
+    padding: 1%;
+    background-color: grey; 
+}
+footer>p {
+    color: white;
+    float: right;
+} 
+footer>i {
+    color: white;
+}
+.voantsiriry{
+    padding: 0;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.mitovy{
+    margin: 15px;
+    height: 50px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
+.mitovy ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+.mitovy ul li{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+.tsy{
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
